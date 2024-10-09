@@ -7,6 +7,13 @@
   align-items: center;
   justify-items: center;
 }
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+  height: 100vh; 
+}
+
 @media (max-width: 1024px) {
   .products-gallery {
     grid-template-columns: repeat(2, 1fr); 
